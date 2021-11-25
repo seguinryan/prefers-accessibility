@@ -70,4 +70,29 @@ html {
  * =============
  */
 
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #111;
+  }
+
+  .banner {
+    background-color: #444;
+  }
+
+  .banner h1 {
+    background-color: rgba(0, 0, 0, .7);
+    color: #ddd;
+  }
+
+}
+
 /* stylelint-enable */
